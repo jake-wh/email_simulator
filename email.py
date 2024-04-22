@@ -75,7 +75,7 @@ while menu:
         # Initiate loop to allow user to select an email from the inbox,
         # and to validate input
         while True:
-            print("")
+            print("\nInbox:")
             list_emails()
             print("Type 'back' to return to previous menu.")
             email_selection = input("\nPlease enter the number that corresponds to the email you would like to open: ")
